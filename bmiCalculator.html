@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+       body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #ececec;
+            font-family: "SF Pro Display", Arial, sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .card {
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .form-control {
+            border-radius: 20px;
+            height: 70px;
+            padding: 25px;
+            font-size: 24px;
+            text-align: center;
+        }
+        .btn {
+            height: 70px;
+            border-radius: 20px;
+            font-size: 24px;
+            font-weight: 600;
+            background-color: #ff9500;
+            border-color: #ff9500;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .btn:hover {
+            background-color: #ffad33;
+            border-color: #ffad33;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h1>BMI Calculator</h1>
+                        <form action="/bmicalculator" method="post">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="weight" placeholder="Your weight (kg)" maxlength="100">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="height" placeholder="Your height (m)" maxlength="100">
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">Calculate BMI</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
