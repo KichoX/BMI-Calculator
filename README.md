@@ -2,7 +2,7 @@
 fun bmi calculator in apple style.
 
 
-Simple BMI calculator designed like an Apple style when everything is done in the back-end and only the result is printed on the screen.
+Simple BMI calculator designed in Apple style when everything is done in the back-end and only the result is printed on the screen.
 
 
 Step by step how i start and launch my calculator.js:
