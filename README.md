@@ -1,6 +1,7 @@
 # BMI-calculator
 
 Landing page can be seen hosted at : https://bmi-calculator-x5d6.onrender.com
+
 (for all features please run it locally)
 
 
