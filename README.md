@@ -1,5 +1,7 @@
 # BMI-calculator
-fun bmi calculator in apple style.
+
+Landing page can be seen hosted at : https://bmi-calculator-x5d6.onrender.com
+(for all features please run it locally)
 
 
 Simple BMI calculator designed in Apple style when everything is done in the back-end and only the result is printed on the screen.
